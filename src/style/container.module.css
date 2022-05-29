@@ -1,0 +1,14 @@
+#header {
+    height: 190px;
+    border-bottom: solid #000000 1px;
+}
+
+#main {
+    margin: 50px;
+}
+
+#footer {
+    height: 200px;
+    background-color: #343434;
+    color: #ffffff;
+}
