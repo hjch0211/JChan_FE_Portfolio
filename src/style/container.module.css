@@ -1,12 +1,35 @@
+/* Header */
 #header {
-    height: 190px;
+    height: 160px;
+    /* padding: 30px; */
     border-bottom: solid #000000 1px;
 }
-
-#main {
-    margin: 50px;
+#headerTop {
+    height: 40px;
+    padding: 0px 30px 0px 30px;
+    border-bottom: solid #000000 1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#headerFloating {
+    padding: 45px 40px 0px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+#headerNav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
+/* Main */
+#main {
+    margin: 50px;
+    min-height: 220px;
+}
+
+/* Footer */
 #footer {
     height: 200px;
     background-color: #343434;
