@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# 공부용 블로그
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

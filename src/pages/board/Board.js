@@ -16,6 +16,9 @@ function Board() {
                 <button>
                     <Link to={"/board/prototype"}>prototype</Link>
                 </button>
+                <button>
+                    <Link to={"/board/strictMode"}>strictMode</Link>
+                </button>
             </div>
             <Outlet />
         </div>
