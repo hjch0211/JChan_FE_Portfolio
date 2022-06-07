@@ -1,6 +1,6 @@
 import React from "react";
 import { useParams } from "react-router";
-import container from "../style/container.module.css";
+import container from "../style/css/container.module.css";
 
 function Home() {
     const param = useParams();

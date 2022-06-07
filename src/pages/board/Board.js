@@ -1,7 +1,7 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
 import { Link } from "react-router-dom";
-import container from "../../style/container.module.css";
+import container from "../../style/css/container.module.css";
 
 function Board() {
     return (
@@ -11,13 +11,13 @@ function Board() {
             >
                 <h4>Board</h4>
                 <button>
-                    <Link to={"/board/test"}>test</Link>
-                </button>
-                <button>
                     <Link to={"/board/prototype"}>prototype</Link>
                 </button>
                 <button>
                     <Link to={"/board/strictMode"}>strictMode</Link>
+                </button>
+                <button>
+                    <Link to={"/board/builtInObject"}>builtInObject</Link>
                 </button>
             </div>
             <Outlet />

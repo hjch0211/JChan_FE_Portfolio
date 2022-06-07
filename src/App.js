@@ -7,9 +7,9 @@ import Footer from "./components/container/Footer";
 //Pages -> 나중에 자동으로 페이지 추가하게끔 만들어보자
 import Home from "./pages/Home";
 import Board from "./pages/board/Board";
-import Test from "./pages/board/Test";
 import Prototype from "./pages/board/prototype";
 import StrictMode from "./pages/board/strictMode";
+import BuiltInObject from "./pages/board/builtInObject";
 import Error from "./pages/Error";
 
 function App() {
@@ -19,9 +19,9 @@ function App() {
             <Routes>
                 <Route exact path="/" element={<Home />} />
                 <Route path="board" element={<Board />}>
-                    <Route path="test" element={<Test />} />
                     <Route path="prototype" element={<Prototype />} />
                     <Route path="strictMode" element={<StrictMode />} />
+                    <Route path="builtInObject" element={<BuiltInObject />} />
                 </Route>
                 <Route path="*" element={<Error />} />
             </Routes>
