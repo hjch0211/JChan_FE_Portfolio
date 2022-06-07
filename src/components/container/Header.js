@@ -1,23 +1,25 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import container from "../../style/container.module.css";
+import container from "../../style/css/container.module.css";
 
 function Header() {
     return (
-        <div id={container.header}>
-            <div id={container.headerTop}>
+        <>
+            <header id={container.globalHeader}>
                 <div>로고</div>
                 <div>글로벌 Nav</div>
-            </div>
-            <div id={container.headerFloating}>
+            </header>
+            <header id={container.headerFloating}>
+                <div>메뉴</div>
                 <Link to={"/"}>
-                    <h1>I am Header</h1>
+                    <h1 class={container.title}>JChan</h1>
+                    <h2 class={container.title}>Front-end Developer</h2>
                 </Link>
-                <div id={container.headerNav}>
+                <nav id={container.headerNav}>
                     <Link to={"/board"}>Go Board</Link>
-                </div>
-            </div>
-        </div>
+                </nav>
+            </header>
+        </>
     );
 }
 

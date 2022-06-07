@@ -1,11 +1,15 @@
 import React from "react";
-import container from "../../style/container.module.css";
+import container from "../../style/css/container.module.css";
 
 function Footer() {
     return (
-        <div id={container.footer}>
-            <h1>I am Footer</h1>
-        </div>
+        <footer id={container.footer}>
+            <h3>Contact</h3>
+            <p>
+                <div>명함</div>
+                <div id={container.card} />
+            </p>
+        </footer>
     );
 }
 

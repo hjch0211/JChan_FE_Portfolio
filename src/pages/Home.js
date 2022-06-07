@@ -6,8 +6,8 @@ function Home() {
     const param = useParams();
     console.log(param);
     return (
-        <div id={container.main}>
-            <h1>I am Main</h1>
+        <main id={container.main}>
+            <h2>I am Main</h2>
             <p>
                 광야에서 간에 꽃이 부패를 역사를 같이, 굳세게 있는 보라. 얼음에 청춘이 그것은 군영과
                 그들은 하였으며, 현저하게 동산에는 남는 사막이다. 꽃이 얼음이 끝까지 하여도 뜨고,
@@ -31,7 +31,7 @@ function Home() {
                 청춘의 이상 거친 영락과 반짝이는 희망의 칼이다. 살았으며, 풍부하게 속에서 간에 든
                 속잎나고, 붙잡아 그들의 사막이다.
             </p>
-        </div>
+        </main>
     );
 }
 

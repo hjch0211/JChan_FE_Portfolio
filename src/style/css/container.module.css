@@ -1,0 +1,48 @@
+/* Header */
+#globalHeader {
+    height: 30px;
+    padding: 0px 30px 0px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 11px;
+}
+#headerFloating {
+    position: sticky;
+    top: -1px;
+    padding: 20px 40px 20px 40px;
+    background-color: #f1eee9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* common.scss로 이동하기 */
+.title {
+    font-family: "Gowun Batang", serif;
+    color: #ec994b;
+}
+#headerNav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Main */
+#main {
+    margin: 50px;
+    min-height: 220px;
+}
+
+/* Footer */
+#footer {
+    /* height: 200px; */
+    background-color: #73777b;
+    padding: 20px 30px 20px 30px;
+    color: #f1eee9;
+}
+#card {
+    width: 280px;
+    height: 160px;
+    background-color: #f1eee9;
+    margin: auto;
+}
