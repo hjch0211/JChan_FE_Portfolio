@@ -4,12 +4,12 @@ import container from "../../style/css/container.module.css";
 
 function Header() {
     return (
-        <>
-            <header id={container.globalHeader}>
+        <header>
+            <div id={container.globalHeader}>
                 <div>로고</div>
                 <div>글로벌 Nav</div>
-            </header>
-            <header id={container.headerFloating}>
+            </div>
+            <div id={container.headerFloating}>
                 <div>메뉴</div>
                 <Link to={"/"}>
                     <h1 class={container.title}>JChan</h1>
@@ -18,8 +18,8 @@ function Header() {
                 <nav id={container.headerNav}>
                     <Link to={"/board"}>Go Board</Link>
                 </nav>
-            </header>
-        </>
+            </div>
+        </header>
     );
 }
 

@@ -5,7 +5,7 @@ import container from "../../style/css/container.module.css";
 
 function Board() {
     return (
-        <div id={container.main}>
+        <main id={container.main}>
             <div
                 style={{ display: "flex", justifyContent: "space-around", alignItems: "baseline" }}
             >
@@ -21,7 +21,7 @@ function Board() {
                 </button>
             </div>
             <Outlet />
-        </div>
+        </main>
     );
 }
 
