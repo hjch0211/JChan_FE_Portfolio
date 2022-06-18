@@ -10,6 +10,7 @@ import Board from "./pages/board/Board";
 import Prototype from "./pages/board/prototype";
 import StrictMode from "./pages/board/strictMode";
 import BuiltInObject from "./pages/board/builtInObject";
+import This from "./pages/board/This";
 import Error from "./pages/Error";
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
                     <Route path="prototype" element={<Prototype />} />
                     <Route path="strictMode" element={<StrictMode />} />
                     <Route path="builtInObject" element={<BuiltInObject />} />
+                    <Route path="this" element={<This />} />
                 </Route>
                 <Route path="*" element={<Error />} />
             </Routes>

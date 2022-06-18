@@ -19,6 +19,9 @@ function Board() {
                 <button>
                     <Link to={"/board/builtInObject"}>builtInObject</Link>
                 </button>
+                <button>
+                    <Link to={"/board/this"}>this</Link>
+                </button>
             </div>
             <Outlet />
         </main>
